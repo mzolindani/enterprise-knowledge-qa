@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and vector indexes
+chroma/
+chroma_db/
+*.sqlite3
+*.db
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
